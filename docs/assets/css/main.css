@@ -3314,38 +3314,3 @@ input, select, textarea {
 			}
 
 	}
-:root {
-  --primary: #614752;
-  --accent: #E8C6D6;
-  --neutral-light: #F5F5F7;
-  --text-dark: #2B2B2B;
-  --text-light: #FFFFFF;
-  --highlight: #BBA4C5;
-}
-
-body {
-  background-color: var(--neutral-light);
-  color: var(--text-dark);
-}
-
-a {
-  color: var(--primary);
-}
-a:hover {
-  color: var(--highlight);
-}
-
-#header, #footer {
-  background-color: var(--primary);
-  color: var(--text-light);
-}
-
-.button,
-.button.primary {
-  background-color: var(--primary);
-  color: var(--text-light);
-}
-.button:hover {
-  background-color: var(--highlight);
-  color: var(--text-dark);
-}
