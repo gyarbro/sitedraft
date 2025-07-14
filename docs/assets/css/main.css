@@ -3416,10 +3416,11 @@ input, select, textarea {
 	
 /*course calendar*/
 	.calendar-card {
-	  border: 1px solid #d8bfd8; 
+	  align: center;
+	  border: transparent; 
 	  border-radius: 8px;
 	  padding: 16px;
-	  max-width: 500px;
+	  max-width: 100%;
 	  background-color: transparent; 
 	  font-family: Arial, sans-serif;
 	}
