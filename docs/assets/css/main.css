@@ -3361,4 +3361,24 @@ input, select, textarea {
 	  opacity: 1;
 	}
 
+/*course calendar dropdown*/
+	.course-calendar details {
+	  margin-bottom: 1em;
+	  border: 1px solid #ccc;
+	  border-radius: 6px;
+	  padding: 1em;
+	  background-color: #f9f9f9;
+	}
+
+	.course-calendar summary {
+	  font-weight: bold;
+	  cursor: pointer;
+	  outline: none;
+	  font-size: 1.1em;
+	  color: #5E3A4E; /* dark mauve */
+	}
+
+	.course-calendar details[open] summary {
+	  color: #3e1f33; /* darker on open */
+	}
 
