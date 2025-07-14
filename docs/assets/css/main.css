@@ -3323,3 +3323,21 @@ input, select, textarea {
 	  font-size: 14px !important;
 	  line-height: 1.6 !important;
 	}
+	.centered-image {
+	  text-align: center;
+	  margin: 1em 0;
+	}
+
+	.centered-image img {
+	  max-width: 100%;
+	  height: auto;
+	  display: block;
+	  margin: 0 auto;
+	}
+
+	.centered-image figcaption {
+	  font-size: 0.9em;
+	  color: #555;
+	  margin-top: 0.5em;
+	}
+
