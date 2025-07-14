@@ -3377,6 +3377,41 @@ input, select, textarea {
 	}
 
 	.course-calendar details[open] summary {
-	  color: #3e1f33; /* darker on open */
+	  color: #3e1f33; 
 	}
+	
+	.unit-layout {
+	  display: flex;
+	  flex-wrap: wrap; 
+	  gap: 20px; 
+	  align-items: flex-start;
+	  margin-bottom: 1.5em;
+	}
+
+	.unit-layout .image {
+	  flex: 0 0 auto;
+	  max-width: 200px;
+	}
+
+	.unit-layout .image img {
+	  max-width: 100%;
+	  height: auto;
+	  display: block;
+	}
+
+	.unit-layout .inner {
+	  flex: 1 1 0%;
+	}
+	
+	@media (max-width: 600px) {
+	  .unit-layout {
+		flex-direction: column;
+	  }
+
+	  .unit-layout .image,
+	  .unit-layout .inner {
+		max-width: 100%;
+	  }
+	}
+	
 
