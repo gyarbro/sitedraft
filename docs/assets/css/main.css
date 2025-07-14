@@ -3314,38 +3314,3 @@ input, select, textarea {
 			}
 
 	}
-/*Get to know Mrs. Yarbrough dropdown*/
-	<style>
-	.dropdown-section {
-	  margin-bottom: 1.5em;
-	}
-
-	.dropdown-toggle {
-	  width: 100%;
-	  padding: 1em;
-	  font-size: 1.1em;
-	  font-weight: bold;
-	  text-align: left;
-	  background-color: #eee;
-	  border: none;
-	  cursor: pointer;
-	  transition: background-color 0.3s ease;
-	}
-
-	.dropdown-toggle:hover {
-	  background-color: #ddd;
-	}
-
-	.dropdown-content {
-	  max-height: 0;
-	  overflow: hidden;
-	  transition: max-height 0.4s ease-out, padding 0.3s ease;
-	  padding: 0 1em;
-	  background-color: #f9f9f9;
-	}
-
-	.dropdown-content.open {
-	  padding: 1em;
-	  max-height: 100%;
-	}
-	</style>
