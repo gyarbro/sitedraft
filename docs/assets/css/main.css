@@ -3324,6 +3324,11 @@ input, select, textarea {
 	  line-height: 1.6 !important;
 	}
 	
+	.figure {
+		margin: 0;
+		padding: 0;
+	}
+	
 	.centered-image {
 	  position: relative;
 	  display: flex;
