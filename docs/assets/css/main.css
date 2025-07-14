@@ -3414,4 +3414,34 @@ input, select, textarea {
 	  }
 	}
 	
+/*course calendar*/
+	.calendar-card {
+	  border: 1px solid #d8bfd8; 
+	  border-radius: 8px;
+	  padding: 16px;
+	  max-width: 500px;
+	  background-color: #f5e6f7; 
+	  font-family: Arial, sans-serif;
+	}
+
+	.calendar-card h3 {
+	  margin-top: 0;
+	  color: #6b3e75;
+	}
+
+	.calendar-button {
+	  display: inline-block;
+	  padding: 10px 20px;
+	  background-color: #a678b4; 
+	  color: white;
+	  text-decoration: none;
+	  border-radius: 5px;
+	  font-weight: bold;
+	  transition: background-color 0.3s ease;
+	}
+
+	.calendar-button:hover {
+	  background-color: #8e5d9f; 
+	}
+
 
