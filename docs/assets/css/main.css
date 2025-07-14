@@ -3314,3 +3314,10 @@ input, select, textarea {
 			}
 
 	}
+	
+/*main dropdown*/
+	.background-details {
+	  font-family: 'Georgia', serif;
+	  font-size: 16px; /* Optional: adjust size */
+	  line-height: 1.6; /* Optional: improve readability */
+	}
