@@ -3326,7 +3326,7 @@ input, select, textarea {
 	
 	.centered-image {
 	  position: relative;
-	  display: flex;
+	  display: inline-block;
 	  text-align: center;
 	  margin: 1em 0;
 	  max-width: 100%;
@@ -3341,7 +3341,7 @@ input, select, textarea {
 	}
 
 	.centered-image figcaption {
-	  position: relative;
+	  position: absolute;
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
