@@ -3341,8 +3341,6 @@ input, select, textarea {
 	}
 
 	.centered-image figcaption {
-	  top: 50%;
-	  transform: translateY(-50%);
 	  font-size: 0.9em;
 	  color: #555;
 	  margin-top: 0.5em;
