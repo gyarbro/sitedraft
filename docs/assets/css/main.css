@@ -3318,8 +3318,8 @@ input, select, textarea {
 /*main dropdown*/
 	.dropdown-content {
 	  background-color: transparent;
-	  color: #E0B0FF;
-	  font-family: 'Georgia', serif !important;
+	  color: #888;
+	  font-family: 'Lato', sans serif !important;
 	  font-size: 14px !important;
 	  line-height: 1.6 !important;
 	}
