@@ -3420,7 +3420,7 @@ input, select, textarea {
 	  border-radius: 8px;
 	  padding: 16px;
 	  max-width: 500px;
-	  background-color: #f5e6f7; 
+	  background-color: transparent; 
 	  font-family: Arial, sans-serif;
 	}
 
