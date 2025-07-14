@@ -3329,15 +3329,18 @@ input, select, textarea {
 	}
 
 	.centered-image img {
+	  width: 100%;
 	  max-width: 100%;
 	  height: auto;
 	  display: block;
 	  margin: 0 auto;
+	  box-sizing: border-box;
 	}
 
 	.centered-image figcaption {
 	  font-size: 0.9em;
 	  color: #555;
 	  margin-top: 0.5em;
+	  text-align: center;
 	}
 
