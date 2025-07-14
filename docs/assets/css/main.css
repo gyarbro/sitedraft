@@ -3317,7 +3317,7 @@ input, select, textarea {
 	
 /*main dropdown*/
 	.dropdown-content {
-	  font-family: 'Georgia', serif;
-	  font-size: 14px; 
-	  line-height: 1.6;
+	  font-family: 'Georgia', serif !important;
+	  font-size: 14px !important;
+	  line-height: 1.6 !important;
 	}
