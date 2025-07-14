@@ -3348,12 +3348,12 @@ input, select, textarea {
 	  bottom: 0;
 	  left: 0;
 	  width: 100%;
-	  background-color: rgba (94, 58, 78, 0.7);
+	  background-color: #C8A2C8;
 	  color: #fff;
 	  padding: 0.5em 1em;
 	  font-size: 0.9em;
 	  opacity: 0;
-	  transition: 0.3s ease;
+	  transition: opacity 0.3s ease;
 	  text-align: center;
 	}
 
