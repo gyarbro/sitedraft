@@ -3326,10 +3326,9 @@ input, select, textarea {
 	
 	.centered-image {
 	  position: relative;
-	  display: flex;
+	  display: inline-block;
 	  text-align: center;
-	  margin: 1em 0;
-	  max-width: 100%;
+	  margin: 0;
 	}
 
 	.centered-image img {
@@ -3353,6 +3352,7 @@ input, select, textarea {
 	  opacity: 0;
 	  transition: opacity 0.3s ease-in-out;
 	  text-align: center;
+	  box-sizing: border-box;
 	}
 
 	.centered-image:hover figcaption {
